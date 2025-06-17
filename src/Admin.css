@@ -1,0 +1,65 @@
+.admin-page {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: 'Courier New', monospace;
+  color: #0f0;
+  letter-spacing: 0.1em;
+}
+
+.admin-container {
+  text-align: center;
+  padding: 30px;
+  background-color: #000;
+  border: 2px solid #0f0;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(0, 240, 0, 0.3);
+  width: 300px;
+}
+
+.admin-container__title {
+  font-size: 1.8em;
+  margin: 0 0 20px;
+}
+
+.admin-container__error-message {
+  color: red;
+  margin: 0 0 20px;
+}
+
+.admin-container__label {
+  display: block;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.admin-container__password-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #0f0;
+  border-radius: 3px;
+  margin: 10px 0;
+  background-color: #000;
+  color: #0f0;
+  font-family: 'Courier New', monospace;
+}
+
+.admin-container__button {
+  background-color: #007bff;
+  color: #0f0;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 20px 0 0;
+  font-family: 'Courier New', monospace;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: background-color 0.3s;
+}
+
+.admin-container__button:hover {
+  background-color: #0056b3;
+}
