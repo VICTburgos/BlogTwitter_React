@@ -34,7 +34,7 @@ function Home(props) {
   return (
     <div className="home">
       <header>
-        <h1 className="Twitter">Aplicaion Escolar</h1>
+        <h1 className="Twitter">Aplicacion Escolar</h1>
         <nav className="nav-menu">
           {admin && <h1 className='administrador'>Modo Administrador</h1>}
           <ul>
