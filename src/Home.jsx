@@ -34,12 +34,12 @@ function Home(props) {
   return (
     <div className="home">
       <header>
-        <h1 className="Twitter">CASA FAMILIAR/GAMER EN VENTA</h1>
+        <h1 className="Twitter">Aplicaion Escolar</h1>
         <nav className="nav-menu">
           {admin && <h1 className='administrador'>Modo Administrador</h1>}
           <ul>
             <li>
-              <Link to="/post">Publicar tu post sobre esta casa</Link>
+              <Link to="/post">Informacion de mi escuela: </Link>
             </li>
           </ul>
         </nav>
